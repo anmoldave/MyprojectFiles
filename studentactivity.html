@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- declaring the title of the webpage -->
+    <title>Students Activities Data</title>
+
+    <!-- linking the css file of the studentactivity page -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+     <link rel="stylesheet"
+    type="text/css"
+    href="studentactivity.css" />
+
+    <!-- Referring the javascript file for the logic implemented. -->
+    <script type="text/javascript" src="studentactivity.js"></script>
+
+    <style>
+            h1{text-align: center;}
+            h2{text-align: center;}
+            body{
+                background-color: aliceblue;
+            } 
+            
+    </style>
+</head>
+<body>
+        <div class="welcome">
+            <h1 id="title" class="title" >Student Activities Page</h1>
+            <br/>
+            <h2 id="classy" > Class Schedule </h2>
+        </div>
+        
+        <!-- created the register box and the clear data button and added on click functionality to it -->
+         <div id="all">
+         <div id="registerBox">
+            <button id="add" onclick="addCourse()">Register</button>
+            <button id="clear" onclick="clearData()">ClearData</button>
+            <input type="text" id="studentName" placeholder="Enter Student Name" >
+            <input type="text" id="courseName" placeholder="Enter Course Name" >
+            <input type="text" id="courseNumber" placeholder="Enter Course Number" >
+            <input type="text" id="room" placeholder="Enter Room">
+
+         </div>
+
+         <div id="zoozle">
+             <!-- created the table row for displaying data on the page -->
+
+             <table id="enrolled" >
+                 
+                 <th id="studentName">Student Name ||</th>
+                 <th id="course">Course ||</th>
+                 <th id="courseNumber">Course Number ||</th>
+                 <th id="room">Room ||</th>
+                </tr>    
+
+             </table>
+         </div>
+
+    </div>
+    
+
+</body>
+</html>

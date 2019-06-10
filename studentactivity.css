@@ -1,0 +1,66 @@
+body {
+    margin: 0px; 
+    padding:0px;
+    background-color:whitesmoke;
+};
+#all{border:20px blue ridge;
+    border-radius: 20px;
+    width: 300px;
+    height:400px;
+    padding:10px;
+    margin:0 auto;
+    overflow: auto;
+}
+#registerBox{
+    border: thick green solid;
+    margin: 10 auto;
+    padding:5px;
+    background-color:tan;
+    
+}
+#enrolled{
+    background-color: tan
+}
+th{
+    background-color: gold;
+    border:thick gold ridge;
+    border-radius: 10px;
+    padding: 3px;
+};
+#zoozle{
+    border: thick green solid;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+
+
+}
+button{
+    width:48%;
+}
+input{
+    width: 98%;
+}
+#add{
+    color: White;
+    background-color:lime;
+    background-image: linear-gradient(to bottom,rgba(0,200,0,0.6),rgba(0,100,0,1));
+}
+#clear{
+    color: white;
+    background-color: aqua;
+    background-image: linear-gradient(to bottom,rgba(200,0,200,0.6),rgba(200,0,200,.2));
+}
+h1,h2{
+    padding: 0px;
+    margin: 0px;
+}
+#all {
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+
+    
+    
+} 
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- declaring the title of the webpage -->
+    <title>Students Corner</title>
+
+
+    <!-- linking the css file of the login page -->
+    <link rel="stylesheet"
+    type="text/css"
+    href="login.css" />
+
+    <!-- copied the ready made css file from the site provided for better look and fill -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    
+    <!-- Referring the javascript file for the logic implemented. -->
+    <script src="login.js"></script>
+
+    <!-- using the style tag to align text and the background color. -->
+    <style>
+            h2{text-align: center;}
+            body{
+                background-color:aliceblue;
+            }
+    </style>
+</head>
+   
+<body>
+    
+
+
+        <h2 id="title" class="title">WELCOME TO STUDENTS CORNER</h2>
+           
+        
+    <form id="login" method="POST" onsubmit="login()">
+        
+        <input type="text" id="username"  placeholder="Enter Username" autofocus required ><br>
+        <input type="password" id="password"  placeholder="Enter Password" autofocus required><br>
+        <button type="submit" onclick="checkLogin()">Login</button>
+
+        
+    </form>
+</body>
+</html>
